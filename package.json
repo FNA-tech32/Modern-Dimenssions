@@ -1,0 +1,26 @@
+{
+  "name": "modern-dimenssions",
+  "version": "1.0.0",
+  "description": "Modern Dimenssions - Digital Marketing Agency Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node init && node dev.js",
+    "start": "node init && node dev.js",
+    "sass:watch": "sass styles/main.scss styles/main.min.css --watch --source-map",
+    "sass:build": "sass styles/main.scss styles/main.min.css --style=compressed --no-source-map"
+  },
+  "keywords": [
+    "modern-dimenssions",
+    "digital-marketing",
+    "landing-page",
+    "html5",
+    "scss",
+    "bem"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "sass": "^1.101.0"
+  }
+}

@@ -1,0 +1,6 @@
+.idea
+.DS_Store
+node_modules
+styles/main.css
+styles/main.css.map
+config.bat
